@@ -11,7 +11,7 @@ client.on('ready', () =>{ // Quando o bot iniciar:
 });
 
 client.on('message', message =>{ // Evento de mensagem: Quando alguém enviar uma mensagem esse evento vai ser executado
-    if(message.content == 'Oi'){ // Se a mensagem aviada for "Oi"
+    if(message.content == 'Oi'){ // Se a mensagem enviada for "Oi"
         message.channel.send("Oi") // O bot vai enviar "Oi" '-' kkj
     }
 });
